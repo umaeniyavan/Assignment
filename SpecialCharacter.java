@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class SpecialCharacterFilter {
 
     public static void main(String[] args) {
-        String inputFile = "input.txt"; // Replace with your input file path
-        String outputFile = "output.txt"; // Replace with your output file path
+        String inputFile = "input.txt";
+        String outputFile = "output.txt";
 
         try {
             filterSpecialCharacters(inputFile, outputFile);
